@@ -115,6 +115,7 @@ export default {
         //     pdf.generate()
         // },
         saveAsImage () {
+            this.$ga.event('SavePng', 'click', 'PNG olarak yazdırıldı', 1)
             let resume = document.querySelector('.resume')
             html2canvas(resume).then(canvas => {
                 canvas.toBlob(blob => {
@@ -123,6 +124,7 @@ export default {
             })
         },
         print () {
+            this.$ga.event('Print', 'click', 'Yazdır Tıklandı', 2)
             window.print()
         }
     }
