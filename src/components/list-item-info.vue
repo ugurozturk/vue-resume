@@ -20,7 +20,7 @@ export default {
         },
         title: {
             type: String,
-            default: 'github.com/luosijie'
+            default: 'Fill What you want to'
         }
     }
 }
