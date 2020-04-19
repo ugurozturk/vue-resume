@@ -4,29 +4,22 @@
                 <li>
                     <img src="../assets/guide_click_left.png" height="30" width="30" alt>
                     <div class="desc">
-                        <h5>Click On Content</h5>
-                        <p>To edit text or image</p>
+                        <h5>İçeriliğe tıklayarak</h5>
+                        <p>Kendinize göre düzenleme yapabilirsiniz</p>
                     </div>
                 </li>
                 <li>
                     <img src="../assets/guide_click_right.png" height="30" width="30" alt>
                     <div class="desc">
-                        <h5>Right Click On Item</h5>
-                        <p>To delete item</p>
+                        <h5>Sağ tıklayarak</h5>
+                        <p>Silebilirsiniz</p>
                     </div>
                 </li>
                 <li>
                     <img src="../assets/guide_add.png" height="30" width="30" alt>
                     <div class="desc">
-                        <h5>Click Add Button</h5>
-                        <p>To add item</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="../assets/guide_sai.png" height="30" width="60" alt>
-                    <div class="desc">
-                        <h5>Click Save Button</h5>
-                        <p>To download resume as image</p>
+                        <h5>Ekle Butonuna Tıklayarak</h5>
+                        <p>Yeni içerik ekleyebilirsiniz</p>
                     </div>
                 </li>
             </ul>

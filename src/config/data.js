@@ -1,103 +1,63 @@
 export default {
     Brief: {
-        name: 'Jesse Luo',
-        position: 'Front-End',
-        location: 'Xiamen, China',
-        sex: 'Male',
-        age: 26,
-        degree: 'B.A.'
+        name: 'Uğur Öztürk',
+        position: 'Full stack developer',
+        location: 'İstanbul, TÜRKİYE',
+        sex: 'Erkek',
+        age: 27
     },
     Contact: [
-        { icon: require('@/assets/contact-phone.png'), key: 'phone', value: '1860***3412' },
-        { icon: require('@/assets/contact-mail.png'), key: 'mail', value: 'luo_sj@163.com' },
-        { icon: require('@/assets/social-wechat.png'), key: 'wechat', value: 'lsj-weicinhao' }
+        { icon: require('@/assets/contact-phone.png'), key: 'phone', value: '507*******' },
+        { icon: require('@/assets/contact-mail.png'), key: 'mail', value: 'mail@uozturk.com' }
     ],
     Social: [
-        { icon: require('@/assets/social-github.png'), key: 'github', value: 'github.com/luosijie' },
-        { icon: require('@/assets/social-dribbble.png'), key: 'dribbble', value: 'dribbble.com/luosj' }
+        { icon: require('@/assets/social-github.png'), key: 'github', value: 'github.com/ugurozturk' }
     ],
     Skill: [
+        { icon: require('@/assets/csharp.png'), key: 'csharp', value: 'C#' },
+        { icon: require('@/assets/wcf.png'), key: 'wcf', value: 'Wcf Services' },
+        { icon: require('@/assets/skill-mongo.png'), key: 'mvc', value: 'Mvc' },
+        { icon: require('@/assets/javascript.png'), key: 'javascript', value: 'Javascript' },
         { icon: require('@/assets/skill-vue.png'), key: 'vue', value: 'Vue' },
-        { icon: require('@/assets/skill-node.png'), key: 'node', value: 'Node' },
-        { icon: require('@/assets/skill-mongo.png'), key: 'mongodb', value: 'MongoDB' }
+        { icon: require('@/assets/angular.png'), key: 'angular', value: 'Angular' },
+        { icon: require('@/assets/typescript.png'), key: 'typescript', value: 'Typescript' },
+        { icon: require('@/assets/electron.png'), key: 'electron', value: 'Electron Framework' },
+        { icon: require('@/assets/sql.png'), key: 'mssql', value: 'MsSql' },
+        { icon: require('@/assets/sql.png'), key: 'plsql', value: 'PLSQL' },
+        { icon: require('@/assets/bootstrap.png'), key: 'bootstrap', value: 'Bootstrap' },
+        { icon: require('@/assets/skill-vue.png'), key: 'vuetify', value: 'Vuetify' }
     ],
     AboutMe: `
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-        libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-        sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-        Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-        vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-        gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-        lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-        In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-        magna est finibus tortor, ultricies accumsan diam lorem non neque.
+        Farklı uygulamalar geliştirmeyi severim. Zamanımı farklı yenilikler öğrenerek geçirmeyi severim. Benim Vcard ıma gönlünüzce bakınabilirsiniz
     `,
     Education: [
-        { school: 'Minjiang University', major: 'History', date: '2011.9-2015.6', description: '' }
+        { school: 'Cumhuriyet Üniversitesi', major: 'YBS', date: '2013-2017', description: '' }
     ],
     WorkingExperience: [
         {
-            company: 'Google',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: 'EnPOS Bilişim Sanayi Ve Ticaret A.Ş.',
+            position: 'Software Developer',
+            date: '2014-2016',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+                Teknik Servis projesi üzerinde 2 yıl boyunca geliştirmesiyle ve bakımıyla ilgilendim. 
+                Üretim takibi + Teknik Servis e gelişinin takibi otomizasyon şeklinde ilerleyen bir proje.
             `
         },
         {
-            company: 'Facebook',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: 'AcerPro Bilişim Teknolojileri A.Ş.',
+            position: 'Software Developer',
+            date: '2018-2019',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+                Acerpro bünyesinde Vakıf Katılım bankasının sigorta şirketleriyle bağlantısının 
+                kurulabildiği projede sigorta ürünlerinin satışını ve raporlanmasını sağlayan projedeydim.
             `
         },
         {
-            company: 'Airbnb',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
+            company: 'Axa Sigorta',
+            position: 'Software Developer',
+            date: '2019',
             description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
-            `
-        },
-        {
-            company: 'Twitter',
-            position: 'UI designer',
-            date: '2015.1-2016.3',
-            description: `
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit metus in 
-                libero rutrum congue aliquam eu libero. Donec tristique est pharetra fringilla 
-                sollicitudin. Etiam eu ipsum vitae nulla tincidunt scelerisque semper id arcu. 
-                Phasellus quam tellus, laoreet id felis a, dignissim facilisis orci. Mauris feugiat 
-                vulputate quam quis tincidunt. In eleifend augue eu tristique bibendum. Donec 
-                gravida, eros sed iaculis iaculis, magna est finibus tortor, ultricies accumsan diam 
-                lorem non neque. sim facilisis orci. Mauris feugiat vulputate quam quis tincidunt. 
-                In eleifend augue eu tristique bibendum. Donec gravida, eros sed iaculis iaculis, 
-                magna est finibus tortor, ultricies accumsan diam lorem non neque.
+                Kafein Yazılım bünyesinde, Outsource olarak başladım. 7 Ay bu şekilde çalıştıktan sonra Kadroya geçtim.
             `
         }
     ]

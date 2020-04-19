@@ -4,7 +4,7 @@
             <div class="left">
                 <Brief :data="defaultData.Brief"/>
                 <ContextList
-                    title="CONTACT"
+                    title="İletişim"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -17,7 +17,7 @@
                     />
                 </ContextList>
                 <ContextList
-                    title="SOCIAL"
+                    title="Sosyal"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -30,7 +30,7 @@
                     />
                 </ContextList>
                 <ContextList
-                    title="Skill"
+                    title="Yetenek"
                     title-size="14px"
                     :icon="require('@/assets/title-contact.png')"
                 >
@@ -44,10 +44,10 @@
                 </ContextList>
             </div>
             <div class="right">
-                <ContextList title="About me">
+                <ContextList title="Hakkımda">
                     <ListItemAbout slot="listItem" :data="defaultData.AboutMe"/>
                 </ContextList>
-                <ContextList title="Education">
+                <ContextList title="Eğitim">
                     <ListItemEducation
                         slot="listItem"
                         :data="item"
@@ -55,7 +55,7 @@
                         :key="item.school"
                     />
                 </ContextList>
-                <ContextList title="Working Experience">
+                <ContextList title="İş Deneyimi">
                     <ListItemExperience
                         slot="listItem"
                         v-for="item in defaultData.WorkingExperience"
@@ -67,16 +67,14 @@
         </div>
         <Guide/>
         <div class="actions">
-            <button @click="saveAsImage">Save as PNG</button>
+            <button @click="saveAsImage">PNG olarak kaydet</button>
             <!-- <button @click="saveAsPdf">Save as PDF</button> -->
-            <button @click="print">Print</button>
+            <button @click="print">Yazdır</button>
         </div>
         <div class="footer">
-            <a href="https://github.com/luosijie/vue-resume" target="_blank">
+            <a href="https://github.com/ugurozturk/vue-resume" target="_blank">
                 <img src="./assets/social-github.png" height="36" width="36" alt>
             </a>
-            vue-resume designed by
-            <a href="https://github.com/luosijie">Jesse Luo</a>
         </div>
     </div>
 </template>

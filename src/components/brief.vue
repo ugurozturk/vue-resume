@@ -13,17 +13,12 @@
                 <li>
                     <span class="value" contenteditable="true" v-html="data.sex" @input="contentChange('sex', $event)"/>
                     <br>
-                    <span class="key" contenteditable="true">SEX</span>
+                    <span class="key" contenteditable="true">Cinsiyet</span>
                 </li>
                 <li>
                     <span class="value" contenteditable="true" v-html="data.age" @input="contentChange('age', $event)"/>
                     <br>
-                    <span class="key" contenteditable="true">AGE</span>
-                </li>
-                <li>
-                    <span class="value" contenteditable="true" v-html="data.degree" @input="contentChange('degree', $event)"/>
-                    <br>
-                    <span class="key" contenteditable="true">DEGREE</span>
+                    <span class="key" contenteditable="true">Yaş</span>
                 </li>
             </ul>
         </div>
@@ -104,7 +99,7 @@
 
                 li {
                     float: left;
-                    width: 33.1%;
+                    width: 50%;
                     box-sizing: border-box;
                     height: 100%;
                     overflow: hidden;
