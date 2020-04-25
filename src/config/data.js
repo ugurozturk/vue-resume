@@ -55,7 +55,7 @@ export default {
         {
             company: 'Axa Sigorta',
             position: 'Software Developer',
-            date: '2019',
+            date: '2019 - ~',
             description: `
                 Kafein Yazılım bünyesinde, Outsource olarak başladım. 7 Ay bu şekilde çalıştıktan sonra Kadroya geçtim.
             `
