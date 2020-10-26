@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://luosijie.github.io/vue-resume/#/">
+  <a href="https://www.uozturk.com/#/">
     <img src="https://github.com/luosijie/Front-end-Blog/blob/master/img/logo_vue_resume.jpg?raw=true">
   </a>
 </p>
